@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConstData
 {
-    class MyMathClass
+    class MyClass
     {
-        public static readonly double PI;
+        public const int B = 2000;
+        public static readonly int A;
 
-        static MyMathClass()
+        static MyClass()
         {
-            PI = 3.14;
+            A = 100;
         }
     }
 }
