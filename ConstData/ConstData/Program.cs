@@ -13,7 +13,11 @@ namespace ConstData
             Console.WriteLine("***** Fun with Const *****\n");
             Console.WriteLine("The value of PI is^ {0}", MyMathClass.PI);
 
-            MyMathClass.PI = 3.1444;
+            Console.WriteLine("***** Fun with Const *****\n");
+            Console.WriteLine("The value of B is^ {0}", MyClass.B);
+
+            MyClass C = new MyClass()
+
 
             Console.ReadLine();
         }
